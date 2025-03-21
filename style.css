@@ -92,6 +92,16 @@ select {
     }
 }
 
+/* media query 426px */
+@media (max-width: 426px) {
+  .hero h1 {
+      font-size: 25px;
+      margin: 0px 0px 20px 0px;
+  }
+}
+
+
+
 /* media query 320px */
 @media (max-width: 320px) {
   .hero h1 {
