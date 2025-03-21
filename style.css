@@ -78,8 +78,8 @@ select {
 /* media quer7 769px */
 @media (max-width: 769px) {
     .hero h1 {
-        font-size: 34px;
-        margin: -30px 0px 50px 0px;
+        font-size: 30px;
+        margin: 0px 0px 20px 0px;
     }
     
 }
@@ -90,4 +90,12 @@ select {
         font-size: 22px;
         margin: -30px 0px 25px 0px;
     }
+}
+
+/* media query 320px */
+@media (max-width: 320px) {
+  .hero h1 {
+      font-size: 21px;
+      margin: 0px 0px 25px 0px;
+  }
 }
